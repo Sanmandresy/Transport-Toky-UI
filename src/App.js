@@ -1,7 +1,12 @@
+import Navigation from "./Components/Navigation";
+import Section from "./Components/Section";
+import Footer from "./Components/Footer";
 
 function App() {
   return (<>
-    <h1>OK</h1>
+    < Navigation/>
+    < Section />
+    <Footer />
   </>);
 }
 
