@@ -1,0 +1,24 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+body{
+    background-color: white;
+}
+nav{
+    background-color: rgb(156, 146, 146);
+}
+
+span{
+    background-color: rgb(165, 154, 154);
+    height: 350px;
+}
+
+h2{
+    text-align: center;
+    color:white;
+    background-color: rgb(136, 128, 128);
+    height: max-content;
+    padding: 5px 0;
+}
+
+footer{
+    background-color: rgb(146, 134, 134);
+}
