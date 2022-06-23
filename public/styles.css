@@ -4,6 +4,7 @@ body{
 }
 nav{
     background-color: rgb(156, 146, 146);
+    list-style: none;
 }
 
 span{
@@ -21,4 +22,30 @@ h2{
 
 footer{
     background-color: rgb(146, 134, 134);
+}
+
+blockquote{
+    text-align: center;
+    font-size: 4vh;
+    margin-bottom: 25px;
+    color: rgb(58, 54, 54);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.recap{
+    text-align: center;
+    color: rgb(58, 54, 54);
+    font-weight: 600;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+ol li{
+    color: whitesmoke;
+    list-style: none;
 }
