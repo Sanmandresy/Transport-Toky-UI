@@ -9,7 +9,7 @@ function Footer() {
         <h5 className="text-uppercase">Contacts</h5>
         <p> <i className="bi bi-geo-alt"></i> Adresse : Ivandry, Antananarivo 101 <br/>
         <i className="bi bi-envelope"></i> Email : yourtransport@fiara.mg <br/>
-          <i className="bi bi-telephone"></i> Tél : +261 38 574 23
+          <i className="bi bi-telephone"></i> Tél : +261 38 06 574 23
         </p>
       </div>
   </div>
