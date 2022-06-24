@@ -1,10 +1,20 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 body{
-    background-color: white;
+    background-color: whitesmoke;
 }
 nav{
     background-color: rgb(156, 146, 146);
     list-style: none;
+}
+.wrapperbg{
+    background-image: url("./landscape.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 span{
@@ -26,10 +36,11 @@ footer{
 
 blockquote{
     text-align: center;
-    font-size: 4vh;
+    font-size: 8vh;
     margin-bottom: 25px;
     color: rgb(58, 54, 54);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .recap{
@@ -48,4 +59,45 @@ ol{
 ol li{
     color: whitesmoke;
     list-style: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    margin-bottom: 20px;
+}
+
+.card-header{
+    background-color: rgb(136, 128, 128);
+    color: white;
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-body{
+    background-color: rgb(165, 154, 154);
+    color:white;
+}
+
+.res{
+    background-color: white;
+    color:rgb(136, 128, 128);
+}
+
+.sticky-top{
+    opacity:0.9;
+}
+
+.intro{
+    text-align: center;
+    color:rgb(51, 49, 49);
+    transform: translate(-50%,-50%);
+    margin-left: 50%;
 }

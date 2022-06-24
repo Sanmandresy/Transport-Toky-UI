@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (<>
 
-<footer className="text-center text-lg-start mt-4 text-white">
+<footer className="text-center text-lg-start mt-4 text-white" id='contact'>
   <div className="container p-4">
       <div className="text-center">
         <h5 className="text-uppercase">Contacts</h5>
